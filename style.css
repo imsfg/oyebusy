@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+.navbar-brand{
+    margin-left: 3%;
+}
+.navbar-nav{
+    position: absolute;
+    left: 50%;
+    color: black;
+    
+}
+#content{
+    font-size: small;
+    position: absolute;
+    display: inline-block;
+    padding: 2%;
+    margin-top: 1%;
+}
+.nav-item {
+ padding-left: 4.5rem;
+}
+.login{
+        position: absolute;
+        right: 0%;
+}
+.main{
+    display: flex;
+    position: relative;
+}
+.images{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.next{
+    width: 80%;
+}
+.searchs{
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    width: 30%;
+   
+}
+.things{
+    width: 70%;
+}
+.best{ 
+    font-size: 50px;
+    position: absolute;
+    top: 20%;
+    left: 36%;
+}
+
+.best pre{
+    color: white;
+}
+.example p{
+    color: white;
+}
+.example{
+    position: absolute;
+    top: 57%;
+    left: 36%;
+}
+.twoimg{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 14%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 84px;
+    margin-top: 5%;
+  }
+  
+  .grid svg {
+    width: 100%;
+  }
+  h3,h6{
+      text-align: center;
+      justify-content: center;  }
+   #contPartSec {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        float: right;
+        width: 50%;
+    }
+    
+    .part1 {
+        display: flex;
+        flex-direction: row;
+        padding-left: 44px;
+        gap: 60px;
+        width: 50%;
+        height: 95px;
+        margin-top: 28px;
+    }
+    .ndpage{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin: auto;
+        width: 100%;
+    }
+    .services{
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+
+    }
+    .servicepart{
+        margin: 1% 3%;
+    }
+    .ndpages{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin: auto;
+        margin-top: 9%;
+        width: 100%;
+    }
+    .safe{ 
+        position: absolute;
+        margin-top: 10%;
+        display: inline-block;
+        background-color: rgb(169, 164, 164);
+        left: 30%;
+    }
+    .safe p{
+        margin-left:10% ;
+    }
+    .safe ul{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .safe li{
+        margin: 8px 32px;
+    }
+    #worker{
+        display: flex;
+
+    }
+    .g{
+        background-color: lightgray;
+        display: inline-block;
+        margin-left: 30%;
+        margin-top: 07%;
+        border-radius: 30px; 
+    }
+    #homeService {  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #contentSer {
+        display: flex;
+        flex-direction: column;
+        gap: -40px;
+    }
+    
+    #contentSer ul {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+    
+    #delveryBoy img {
+        width: 75%;
+        height: 75%;
+        padding: 10px 10px;
+        border-radius: 30px;
+    }
+    #assured {
+        margin-top: 08%;
+        margin-left: 5%;
+        width: 90%;
+        height: 150px;
+        padding: 10px;
+        background-color: whitesmoke;
+    }
+    
+    #assured h3 h4 {
+        text-align: center;
+    }
+    
+    #circle {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .circleDesc {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+    
+    .circleDesc p {
+        font-size: 10px;
+        color: gray;
+    }
+    
+    .circleDesc img {
+        width: 50px;
+        height: 50px;
+    }
+    .writes{
+        margin-top: 08%;
+        display: flex;
+        gap: 50px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       background-color: rgb(249 209 98);
+    }
+    #Electrician {
+        margin-top: 08%;
+        width: 95%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+
+    }
+    
+    .electricianSer h4 {
+        color: green;
+    }
+    
+    .electItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .under{
+        background-color: white;
+    }
+    .writess{
+        margin-top: 08%;
+        display: flex;
+        gap: 50px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+       background-color: rgb(178, 168, 168);
+    }
+    #stamp{
+        
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        gap:100px;
+        
+    }
+    #stamp img{
+        padding-left: 150px;
+    }
+    #stamp h3{
+        padding-top:80px;
+    }
